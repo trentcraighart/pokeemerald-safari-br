@@ -10,6 +10,7 @@
 #include "palette.h"
 #include "pokedex.h"
 #include "pokemon.h"
+#include "random.h"
 #include "scanline_effect.h"
 #include "sound.h"
 #include "sprite.h"
@@ -25,6 +26,7 @@
 #include "constants/rgb.h"
 
 #define STARTER_MON_COUNT   3
+#define STARTER_GENERATIONS 8
 
 // Position of the sprite of the selected starter Pokemon
 #define STARTER_PKMN_POS_X (DISPLAY_WIDTH / 2)
@@ -110,11 +112,42 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
-static const u16 sStarterMon[STARTER_MON_COUNT] =
+u16 sStarterMon[STARTER_MON_COUNT];
+
+static const u16 sGrassStarterMon[STARTER_GENERATIONS] =
 {
+    SPECIES_BULBASAUR,
+    SPECIES_CHIKORITA,
     SPECIES_TREECKO,
+    SPECIES_TURTWIG,
+    SPECIES_SNIVY,
+    SPECIES_CHESPIN,
+    SPECIES_ROWLET,
+    SPECIES_GROOKEY
+};
+
+static const u16 sFireStarterMon[STARTER_GENERATIONS] =
+{
+    SPECIES_CHARMANDER,
+    SPECIES_CYNDAQUIL,
     SPECIES_TORCHIC,
+    SPECIES_CHIMCHAR,
+    SPECIES_TEPIG,
+    SPECIES_FENNEKIN,
+    SPECIES_LITTEN,
+    SPECIES_SCORBUNNY
+};
+
+static const u16 sWaterStarterMon[STARTER_GENERATIONS] =
+{
+    SPECIES_SQUIRTLE,
+    SPECIES_TOTODILE,
     SPECIES_MUDKIP,
+    SPECIES_PIPLUP,
+    SPECIES_FROAKIE,
+    SPECIES_OSHAWOTT,
+    SPECIES_POPPLIO,
+    SPECIES_SOBBLE
 };
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -375,6 +408,10 @@ void CB2_ChooseStarter(void)
 {
     u8 taskId;
     u8 spriteId;
+
+    sStarterMon[0] = sFireStarterMon[Random() % STARTER_GENERATIONS];
+    sStarterMon[1] = sGrassStarterMon[Random() % STARTER_GENERATIONS];
+    sStarterMon[2] = sWaterStarterMon[Random() % STARTER_GENERATIONS];
 
     SetVBlankCallback(NULL);
 
