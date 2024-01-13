@@ -8124,12 +8124,12 @@ u32 GetMoveTarget(u16 move, u8 setTarget)
 
     return targetBattler;
 }
-
+/*
 static bool32 IsBattlerModernFatefulEncounter(u32 battler)
 {
     return TRUE;
 }
-
+*/
 u8 IsMonDisobedient(void)
 {
     return 0;
