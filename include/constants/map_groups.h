@@ -133,6 +133,7 @@
 #define MAP_PETALBURG_CITY_POKEMON_CENTER_1F (4 | (8 << 8))
 #define MAP_PETALBURG_CITY_POKEMON_CENTER_2F (5 | (8 << 8))
 #define MAP_PETALBURG_CITY_MART              (6 | (8 << 8))
+#define MAP_BR_POISON_FOREST                 (7 | (8 << 8))
 
 // gMapGroup_IndoorSlateport
 #define MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F      (0 | (9 << 8))
@@ -591,6 +592,30 @@
 // gMapGroup_IndoorRoute124
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
-#define MAP_GROUPS_COUNT 34
+// gMapGroup_Safari_BR
+#define MAP_SAFARI_BR_POKEMON_CENTER (0 | (34 << 8))
+#define MAP_SAFARI_BR_CENTER         (1 | (34 << 8))
+#define MAP_SAFARI_BR_NORTH          (2 | (34 << 8))
+#define MAP_SAFARI_BR_SOUTH          (3 | (34 << 8))
+#define MAP_SAFARI_BR_RIGHT          (4 | (34 << 8))
+#define MAP_SAFARI_BR_LEFT           (5 | (34 << 8))
+#define MAP_SAFARI_BR_FIRE           (6 | (34 << 8))
+
+// brMapGroup
+#define MAP_BR_TEST                    (0 | (35 << 8))
+#define MAP_BR_POKE_CENTER             (1 | (35 << 8))
+#define MAP_BR_NORMAL_BASIC            (2 | (35 << 8))
+#define MAP_BR_WATER_BASIC             (3 | (35 << 8))
+#define MAP_BR_GRASS_BASIC             (4 | (35 << 8))
+#define MAP_BR_NORMAL_FIRE_CONNECTION  (5 | (35 << 8))
+#define MAP_BR_FIRE_BASIC              (6 | (35 << 8))
+#define MAP_BR_NORMAL_GRASS_CONNECTION (7 | (35 << 8))
+#define MAP_BR_NORMAL_WATER_CONNECTOR  (8 | (35 << 8))
+#define MAP_BR_POISON_FOREST_BASIC     (9 | (35 << 8))
+#define MAP_NEW_MAP1                   (10 | (35 << 8))
+#define MAP_BR_DESERT_BASIC            (11 | (35 << 8))
+#define MAP_BR_MOUNTIAN_TOP_BASIC      (12 | (35 << 8))
+
+#define MAP_GROUPS_COUNT 36
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

@@ -1067,3 +1067,44 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/SafariBR_PokemonCenter/scripts.inc"
+
+	.include "data/maps/SafariBR_Center/scripts.inc"
+
+	.include "data/maps/SafariBR_North/scripts.inc"
+
+	.include "data/maps/SafariBR_South/scripts.inc"
+
+	.include "data/maps/SafariBR_Right/scripts.inc"
+
+	.include "data/maps/SafariBR_Left/scripts.inc"
+
+	.include "data/maps/SafariBR_Fire/scripts.inc"
+
+	.include "data/maps/BR_Test/scripts.inc"
+
+	.include "data/maps/BR_PokeCenter/scripts.inc"
+
+	.include "data/maps/BR_NormalBasic/scripts.inc"
+
+	.include "data/maps/BR_WaterBasic/scripts.inc"
+
+	.include "data/maps/BR_NormalWaterConnector/scripts.inc"
+
+	.include "data/maps/BR_NormalGrassConnection/scripts.inc"
+
+	.include "data/maps/BR_GrassBasic/scripts.inc"
+
+	.include "data/maps/BR_NormalFireConnection/scripts.inc"
+
+	.include "data/maps/BR_FireBasic/scripts.inc"
+	.include "data/maps/BR_PoisonForest/scripts.inc"
+
+	.include "data/maps/BR_PoisonForestBasic/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/BR_DesertBasic/scripts.inc"
+
+	.include "data/maps/BR_MountianTopBasic/scripts.inc"
