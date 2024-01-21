@@ -1,0 +1,48 @@
+{
+  "id": "MAP_BR_MOUNTIAN_TOP_BASIC",
+  "name": "BR_MountianTopBasic",
+  "layout": "LAYOUT_MT_PYRE_EXTERIOR",
+  "music": "MUS_MT_PYRE_EXTERIOR",
+  "region_map_section": "MAPSEC_ROUTE_101",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 19,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_BR_FIRE_BASIC",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_BR_FIRE_BASIC",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_BR_WATER_BASIC",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

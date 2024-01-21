@@ -1,0 +1,44 @@
+{
+  "id": "MAP_BR_NORMAL_FIRE_CONNECTION",
+  "name": "BR_NormalFireConnection",
+  "layout": "LAYOUT_BR_NORMAL_FIRE_CONNECTION",
+  "music": "MUS_ROUTE101",
+  "region_map_section": "MAPSEC_ROUTE_101",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_BR_NORMAL_BASIC",
+      "offset": 0,
+      "direction": "dive"
+    },
+    {
+      "map": "MAP_BR_NORMAL_BASIC",
+      "offset": 2,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_BR_FIRE_BASIC",
+      "offset": -10,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

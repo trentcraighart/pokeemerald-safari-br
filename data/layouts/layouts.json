@@ -4410,6 +4410,216 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_TEST",
+      "name": "BR_Test_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BR_Test/border.bin",
+      "blockdata_filepath": "data/layouts/BR_Test/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_POKE_CENTER",
+      "name": "BR_PokeCenter_Layout",
+      "width": 16,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/BR_PokeCenter/border.bin",
+      "blockdata_filepath": "data/layouts/BR_PokeCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_NORMAL_BASIC",
+      "name": "BR_NormalBasic_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BR_NormalBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_NormalBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_WATER_BASIC",
+      "name": "BR_WaterBasic_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/BR_WaterBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_WaterBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_NORMAL_WATER_CONNECTOR",
+      "name": "BR_NormalWaterConnector_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/BR_NormalWaterConnector/border.bin",
+      "blockdata_filepath": "data/layouts/BR_NormalWaterConnector/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_NORMAL_GRASS_CONNECTION",
+      "name": "BR_NormalGrassConnection_Layout",
+      "width": 40,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BR_NormalGrassConnection/border.bin",
+      "blockdata_filepath": "data/layouts/BR_NormalGrassConnection/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_GRASS_BASIC",
+      "name": "BR_GrassBasic_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/BR_GrassBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_GrassBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_NORMAL_FIRE_CONNECTION",
+      "name": "BR_NormalFireConnection_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/BR_NormalFireConnection/border.bin",
+      "blockdata_filepath": "data/layouts/BR_NormalFireConnection/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_FIRE_BASIC",
+      "name": "BR_FireBasic_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/BR_FireBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_FireBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_POKEMON_CENTER",
+      "name": "SafariBR_PokemonCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SafariBR_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_CENTER",
+      "name": "SafariBR_Center_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SafariBR_Center/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_Center/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_NORTH",
+      "name": "SafariBR_North_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SafariBR_North/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_SOUTH",
+      "name": "SafariBR_South_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SafariBR_South/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_RIGHT",
+      "name": "SafariBR_Right_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SafariBR_Right/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_Right/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_LEFT",
+      "name": "SafariBR_Left_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/SafariBR_Left/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_Left/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_BR_FIRE",
+      "name": "SafariBR_Fire_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/SafariBR_Fire/border.bin",
+      "blockdata_filepath": "data/layouts/SafariBR_Fire/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_POISON_FOREST",
+      "name": "BR_PoisonForest_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BR_PoisonForest/border.bin",
+      "blockdata_filepath": "data/layouts/BR_PoisonForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_POISON_FOREST_BASIC",
+      "name": "BR_PoisonForestBasic_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BR_PoisonForestBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_PoisonForestBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP1",
+      "name": "NewMap1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/NewMap1/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_DESERT_BASIC",
+      "name": "BR_DesertBasic_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/BR_DesertBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_DesertBasic/map.bin"
+    },
+    {
+      "id": "LAYOUT_BR_MOUNTIAN_TOP_BASIC",
+      "name": "BR_MountianTopBasic_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/BR_MountianTopBasic/border.bin",
+      "blockdata_filepath": "data/layouts/BR_MountianTopBasic/map.bin"
     }
   ]
 }

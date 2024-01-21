@@ -1,0 +1,54 @@
+{
+  "id": "MAP_BR_NORMAL_BASIC",
+  "name": "BR_NormalBasic",
+  "layout": "LAYOUT_BR_NORMAL_BASIC",
+  "music": "MUS_ROUTE101",
+  "region_map_section": "MAPSEC_ROUTE_101",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_BR_TEST",
+      "offset": 5,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_BR_NORMAL_WATER_CONNECTOR",
+      "offset": 4,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_BR_NORMAL_GRASS_CONNECTION",
+      "offset": -10,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_BR_NORMAL_FIRE_CONNECTION",
+      "offset": 0,
+      "direction": "emerge"
+    },
+    {
+      "map": "MAP_BR_NORMAL_FIRE_CONNECTION",
+      "offset": -2,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}
